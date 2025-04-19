@@ -5,8 +5,3 @@ export function greeting(name) {
 export function doubleArray(numbers) {
   return numbers.map((num) => num * 2);
 }
-
-module.exports = {
-  greeting,
-  doubleArray,
-};
